@@ -1,0 +1,52 @@
+body  {
+    min-height: 100vw;
+    background-image: url('/assets/img/pc/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-routes {
+    height: 28vw;
+    width: 12vw;
+    background-image: url('/assets/img/pc/the-bai.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.charts-btn a img {
+    margin-top: -8vw;
+    margin-left: 50vw;
+}
+
+.more-turns {
+    margin: 2vw 8vw;
+}
+
+.more-turns .btn a img {
+    width: 14vw;
+}
+
+.gift-top {
+    margin: 10vw 10vw 18vw;
+    align-items: center;
+}
+
+.gift-top .item img {
+    width: 12vw;
+    justify-content: center;
+}
+.get-gifts .item {
+    height: 26vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.get-gifts .item a,
+.get-gifts .item a img {
+    margin: 21.4vw .6vw 0 0;
+}
+
+/* General */
+.big-item {
+    scale: 1.4;
+}

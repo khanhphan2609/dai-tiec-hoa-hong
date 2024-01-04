@@ -1,0 +1,80 @@
+/* Styles for laptops mini*/
+@media only screen and (min-width: 993px)  and (max-width: 1400px) {
+    .more-turns {
+        margin: 0 8vw;
+    }
+    .get-gifts .item {
+        height: 34vw;
+    }
+    .get-gifts .item a, .get-gifts .item a img {
+        margin: 28vw 0.6vw 0 0;
+    }
+}
+
+/* Styles for mobile & tablet devices */
+@media only screen and (max-width: 992px) {
+    body {
+        background-image: url('/assets/img/mobi/bg.png');
+    }
+    .card-routes {
+        display: none;
+    }
+    .charts-btn {
+        position: absolute;
+        top: 78vw;
+        right: 3vw;
+    }
+    .charts-btn a img {
+        width: 23vw;
+        margin: 0;
+    }
+    .more-turns {
+        margin: 102vw 12vw 0;
+    }
+    .more-turns .btn {
+        padding: 0;
+    }
+    .more-turns .btn:nth-child(2) {
+        position: absolute;
+        top: 90vw;
+        right: 0;
+    }
+    .more-turns .btn:nth-child(2) img {
+        width: 28vw;
+    }
+    .more-turns .btn a img {
+        width: 34vw;
+    }
+    /* Gift */
+    .gift-top {
+        margin: 56vw 0 18vw;
+    }
+    .gift-top .item {
+        padding: 0;
+    }
+    .gift-top .item:nth-child(2) {
+        position: absolute;
+        top: 124vw;
+        right: 0;
+    }
+    .gift-top .item:nth-child(2) img {
+        width: 36vw;
+    }
+    .gift-top .item img {
+        width: 44vw;
+    }
+    .get-gifts .item {
+        height: 50vw;
+    }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+  
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+
+}
+  
