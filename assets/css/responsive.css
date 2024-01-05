@@ -1,13 +1,34 @@
 /* Styles for laptops mini*/
-@media only screen and (min-width: 993px)  and (max-width: 1400px) {
+@media only screen and (min-width: 993px)  and (max-width: 1600px) {
+    .routes__title {
+        font-size: .8rem;
+    }
+    .routes__item {
+        margin: .01vw 0;
+    }
+    .routes__item img {
+        width: 8vw;
+        height: 2vw;
+    }
     .more-turns {
-        margin: 0 8vw;
+        margin: 0 14vw;
+    }
+    .get-gifts .title {
+        font-size: 1.2rem;
+        margin: -6.4vw 0 0 34vw;
+    }
+    .get-gifts .title .text {
+        padding-top: 3.4vw;
+        font-size: 1.1rem;
     }
     .get-gifts .item {
         height: 34vw;
     }
+    .get-gifts .item .quantity {
+        padding: 8.8vw 1.2vw 0 0;
+    }
     .get-gifts .item a, .get-gifts .item a img {
-        margin: 28vw 0.6vw 0 0;
+        margin: 17vw 0.6vw 0 0;
     }
 }
 
@@ -45,7 +66,7 @@
     .more-turns .btn a img {
         width: 34vw;
     }
-    /* Gift */
+    /* Gift Top */
     .gift-top {
         margin: 56vw 0 18vw;
     }
@@ -62,6 +83,10 @@
     }
     .gift-top .item img {
         width: 44vw;
+    }
+    /* Get Gift */
+    .get-gifts {
+        padding-top: 12vw;
     }
     .get-gifts .item {
         height: 50vw;
