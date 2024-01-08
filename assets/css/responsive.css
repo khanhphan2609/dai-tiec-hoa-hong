@@ -5,21 +5,25 @@
     }
     .routes__item {
         margin: .01vw 0;
+        height: 2.2vw;
     }
     .routes__item img {
-        width: 8vw;
+        width: 7vw;
         height: 2vw;
     }
     .more-turns {
-        margin: 0 14vw;
+        margin: 0 16vw;
+    }
+    .gift-top {
+        margin: 11vw 12vw 18vw;
     }
     .get-gifts .title {
+        line-height: 6.4vw;
         font-size: 1.2rem;
         margin: -6.4vw 0 0 34vw;
     }
     .get-gifts .title .text {
-        padding-top: 3.4vw;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .get-gifts .item {
         height: 34vw;
@@ -27,8 +31,15 @@
     .get-gifts .item .quantity {
         padding: 8.8vw 1.2vw 0 0;
     }
+    .get-gifts .item .quantity p {
+        margin-top: 0.3vw;
+    }
     .get-gifts .item a, .get-gifts .item a img {
         margin: 17vw 0.6vw 0 0;
+    }
+
+    .mt-quantity {
+        margin-top: -0.48vw;
     }
 }
 
@@ -89,7 +100,36 @@
         padding-top: 12vw;
     }
     .get-gifts .item {
-        height: 50vw;
+        height: 74vw;
+        width: 50vw;
+    }
+    .get-gifts .title {
+        width: 50vw;
+        height: 10vw;
+        margin: .4vw 0 0 21vw;
+        font-size: .8rem;
+    }
+    .get-gifts .item .quantity {
+        padding: 20.8vw 4.2vw 0 0;
+        font-size: .8rem;
+    }
+    .get-gifts .item a, 
+    .get-gifts .item a img {
+        margin: 32vw 2vw 0 0;
+    }
+
+    /* Footer */
+    #routes-mob {
+        display: block;
+    }
+    #routes-mob .list .item {
+        background-image: url('/assets/img/mobi/bg-footer.png');
+        background-repeat: no-repeat;
+        height: 12vw;
+    }
+    #routes-mob .list .item img {
+        width: 12vw;
+        padding-top: 2vw;
     }
 }
 

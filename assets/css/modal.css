@@ -1,0 +1,117 @@
+/*  */
+#dialogGuide .modal-content {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#dialogGuide .modal-bg {
+    min-height: 50vw;
+    background-image: url('/assets/img/modal/thele-modal-background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#dialogGuide .modal-title {
+    margin: 4vw 4vw 0 0;
+}
+
+#dialogGuide .close {
+    float: right;
+    margin: -2vw 3.6vw 0 0;
+    background-color: transparent;
+    border: none;
+    width: 2vw;
+    height: 2vw;
+    color: transparent;
+}
+
+#dialogGuide .modal-text {
+    margin: 1vw 7vw 0vw 2vw;
+    font-size: 1.2rem;
+}
+
+/*  */
+#dialogCharts .modal-content {
+    padding: 2vw 6vw;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#dialogCharts .modal-bg {
+    min-height: 42vw;
+    max-width: 30vw;
+    background-image: url(/assets/img/modal/modal-popup-img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#dialogCharts .close {
+    float: right;
+    background-color: transparent;
+    border: none;
+    width: 4vw;
+    height: 4vw;
+    color: transparent;
+}
+
+#dialogCharts .modal-form {
+    margin: 8vw 6vw 0vw 4vw;
+    font-size: 1.2rem;
+    color: #F90000;
+}
+
+
+
+/* Styles for laptops mini*/
+@media only screen and (min-width: 993px)  and (max-width: 1600px) {
+    #dialogGuide .close {
+        width: 4vw;
+        height: 4vw;
+    }
+    #dialogCharts .modal-content {
+        padding: 2vw 0 0 13vw;
+    }
+}
+
+/* Styles for mobile & tablet devices */
+@media only screen and (max-width: 992px) {
+    #dialogGuide .modal-dialog {
+        margin-top: 30vw;
+    }
+    #dialogGuide .modal-bg {
+        height: 88vw;
+    }
+    #dialogGuide .modal-title {
+        margin: 8vw 8vw 0 0;
+        font-size: 1rem;
+    }
+    #dialogGuide .close {
+        margin: -10vw 5vw 0 0;
+        width: 10vw;
+        height: 10vw;
+    }
+    #dialogGuide .modal-text {
+        margin: 0vw 7vw 0vw 2vw;
+        font-size: 0.6rem;
+    }
+
+
+    #dialogCharts .close {
+        width: 13vw;
+        height: 13vw;
+    }
+    #dialogCharts .modal-content {
+        padding: 36vw 4vw 0;
+    }
+    #dialogCharts .modal-bg {
+        min-height: 130vw;
+        max-width: 100vw;
+    }
+    #dialogCharts .modal-form {
+        margin: 24vw 16vw 0 10vw;
+    }
+}
