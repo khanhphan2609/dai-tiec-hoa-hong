@@ -41,7 +41,7 @@
 /* Styles for mobile & tablet devices */
 @media only screen and (max-width: 992px) {
     body {
-        background-image: url('/assets/img/mobi/bg.png');
+        background-image: url('/assets/img/mobi/bg.jpg');
     }
     .card-routes {
         display: none;
@@ -93,6 +93,18 @@
     /* Get Gift */
     .get-gifts {
         padding-top: 12vw;
+    }
+    .get-gifts .title {
+        width: 37%;
+        height: 6vw;
+        background-image: url(/assets/img/mobi/bg-title.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: #fffd;
+        font-size: 0.4rem;
+        font-weight: 600;
+        line-height: 6vw;
+        margin: 0 auto;
     }
     .get-gifts .item {
         height: 74vw;

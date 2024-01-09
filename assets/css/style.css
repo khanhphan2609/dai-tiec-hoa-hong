@@ -112,6 +112,7 @@ body  {
     background-size: contain;
     color: #fffd;
     font-size: 1rem;
+    font-weight: 700;
     line-height: 3vw;
     margin: 0 auto;
 }
