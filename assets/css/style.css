@@ -90,7 +90,7 @@ body  {
 }
 
 .gift-top {
-    margin: 10vw 10vw 18vw;
+    margin: 10vw 10vw 0;
     align-items: center;
 }
 
@@ -101,13 +101,12 @@ body  {
 
 /* Get gifts */
 .get-gifts {
-    margin-bottom: 4vw;
+    margin: 18vw 0 4vw;
 }
 .get-gifts .title {
-    width: 20vw;
-    height: 4vw;
-    margin: -5vw 0 0 24vw;
-    line-height: 7.8vw;
+    width: 100%;
+    margin: -5vw 0 -2vw;
+    line-height: 8vw;
     background-image: url(/assets/img/routes-btn/);
     background-repeat: no-repeat;
     background-size: 100%;

@@ -15,12 +15,11 @@
         margin: 0 16vw;
     }
     .gift-top {
-        margin: 11vw 12vw 18vw;
+        
     }
     .get-gifts .title {
-        line-height: 6.4vw;
+        line-height: 6vw;
         font-size: 1.2rem;
-        margin: -6.4vw 0 0 34vw;
     }
     .get-gifts .title .text {
         font-size: 1rem;
@@ -107,7 +106,7 @@
         width: 50vw;
         height: 10vw;
         margin: .4vw 0 0 21vw;
-        font-size: .8rem;
+        font-size: .6rem;
     }
     .get-gifts .item .quantity {
         padding: 20.8vw 4.2vw 0 0;
