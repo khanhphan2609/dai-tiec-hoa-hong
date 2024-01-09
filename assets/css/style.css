@@ -42,7 +42,7 @@ body  {
 .charts-btn {
     z-index: 10;
     margin-top: -8vw;
-    margin-left: 50vw;
+    margin-left: 56vw;
 }
 .charts-btn a img {
     filter: brightness(1.4);
