@@ -105,14 +105,15 @@ body  {
 }
 
 .get-gifts .title {
-    width: 100%;
+    width: 25%;
     height: 3vw;
     background-image: url(/assets//img/bg-title.png);
     background-repeat: no-repeat;
     background-size: contain;
     color: #fffd;
-    font-size: 1.2rem;
-    line-height: 2vw;
+    font-size: 1rem;
+    line-height: 3vw;
+    margin: 0 auto;
 }
 
 .get-gifts .item {
