@@ -114,9 +114,8 @@
         padding: 19.6vw 4.2vw 0 0;
         font-size: .8rem;
     }
-    .get-gifts .item a, 
-    .get-gifts .item a img {
-        margin: 32vw 2vw 0 0;
+    .get-gifts .item a{
+        margin: 34vw 2vw 0 0;
     }
 
     /* Footer */
