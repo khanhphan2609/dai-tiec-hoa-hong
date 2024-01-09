@@ -48,7 +48,7 @@
     }
     .charts-btn {
         position: absolute;
-        top: 78vw;
+        top: 86vw;
         right: 3vw;
     }
     .charts-btn a img {
@@ -95,15 +95,15 @@
         padding-top: 12vw;
     }
     .get-gifts .title {
-        width: 37%;
-        height: 6vw;
+        width: 72%;
+        height: 12vw;
         background-image: url(/assets/img/mobi/bg-title.png);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 100%;
         color: #fffd;
-        font-size: 0.4rem;
+        font-size: 0.8rem;
         font-weight: 600;
-        line-height: 6vw;
+        line-height: 12vw;
         margin: 0 auto;
     }
     .get-gifts .item {
