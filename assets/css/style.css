@@ -41,10 +41,10 @@ body  {
 /* Charts Btn */
 .charts-btn {
     z-index: 10;
-}
-.charts-btn a img {
     margin-top: -8vw;
     margin-left: 50vw;
+}
+.charts-btn a img {
     filter: brightness(1.4);
     animation: scaleAnimation 2s linear infinite;
 }
@@ -101,12 +101,10 @@ body  {
 
 /* Get gifts */
 .get-gifts {
-    margin: 13vw 0 4vw;
+    margin: 16vw 0 4vw;
 }
 .get-gifts .title {
     width: 100%;
-    height: 0;
-    margin: 16vw 0 2.8vw;
     background-image: url(/assets/img/routes-btn/);
     background-repeat: no-repeat;
     background-size: 100%;
