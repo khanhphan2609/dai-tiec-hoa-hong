@@ -77,6 +77,10 @@ body  {
     margin: 2vw 8vw;
 }
 
+.more-turns .btn {
+    border: none;
+}
+
 .more-turns .btn a img {
     width: 11vw;
 }
@@ -109,10 +113,6 @@ body  {
     background-size: 100%;
     color: #fff;
     font-size: 1.2rem;
-}
-
-.get-gifts .title .text {
-    
 }
 
 .get-gifts .item {

@@ -12,7 +12,7 @@ $(document).ready(function () {
         DialogCharts();
     });
     // Doi qua
-    var targetOffset = $('.get-gifts').offset().top;
+    var targetOffset = $('.get-gifts').offset().top * .9;
     $('.card-routes').on('click', '.scroll-to-gift', function () {
         ScrollToGift(targetOffset);
     });
@@ -53,8 +53,8 @@ function ScrollToGift(targetOffset) {
     }, 100);
 }
 
-// SweetAlert2
+// SweetAlert
 function AskToLogIn() {
-    Swal.fire("Vui lòng đăng nhập!");
+    swal("Vui lòng đăng nhập!");
 }
 

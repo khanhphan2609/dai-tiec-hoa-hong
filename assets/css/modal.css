@@ -6,7 +6,7 @@
 }
 
 #dialogGuide .modal-bg {
-    min-height: 50vw;
+    min-height: 40vw;
     background-image: url('/assets/img/modal/thele-modal-background.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -34,15 +34,15 @@
 
 /*  */
 #dialogCharts .modal-content {
-    padding: 2vw 6vw;
+    padding: 6vw 10vw;
     color: white;
     background-color: transparent;
     border: none;
 }
 
 #dialogCharts .modal-bg {
-    min-height: 42vw;
-    max-width: 30vw;
+    min-height: 26vw;
+    max-width: 18vw;
     background-image: url(/assets/img/modal/modal-popup-img.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -53,13 +53,13 @@
     float: right;
     background-color: transparent;
     border: none;
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
     color: transparent;
 }
 
 #dialogCharts .modal-form {
-    margin: 8vw 6vw 0vw 4vw;
+    margin: 5vw 4vw 0vw 3vw;
     font-size: 1.2rem;
     color: #F90000;
 }
@@ -68,12 +68,33 @@
 
 /* Styles for laptops mini*/
 @media only screen and (min-width: 993px)  and (max-width: 1600px) {
+    #dialogGuide .modal-dialog {
+        margin: 2vw 30vw;
+    }
+    #dialogGuide .modal-content {
+        font-size: 1rem;
+        width: 44vw;
+    }
+    #dialogGuide .modal-title {
+        margin: 3.4vw 4vw 0 0;
+        font-size: 1.6rem;
+    }
     #dialogGuide .close {
+        margin: -4vw 3vw 0 0;
         width: 4vw;
         height: 4vw;
     }
+    #dialogGuide .modal-text {
+        margin: 1vw 7vw 0vw 3vw;
+        font-size: 1rem;
+    }
+
+
     #dialogCharts .modal-content {
-        padding: 2vw 0 0 13vw;
+        padding: 6vw 0 0 17vw;
+    }
+    #dialogCharts .modal-form {
+        font-size: 1rem;
     }
 }
 
@@ -113,5 +134,10 @@
     }
     #dialogCharts .modal-form {
         margin: 24vw 16vw 0 10vw;
+    }
+
+    #dialogGuide .modal-dialog,
+    #dialogCharts .modal-dialog {
+        margin-left: 6vw;
     }
 }
