@@ -103,11 +103,13 @@ body  {
 .get-gifts {
     margin: 16vw 0 4vw;
 }
+
 .get-gifts .title {
     width: 100%;
-    background-image: url(/assets/img/routes-btn/);
+    height: 3vw;
+    background-image: url(/assets//img/bg-title.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     color: #fffd;
     font-size: 1.2rem;
     line-height: 2vw;
